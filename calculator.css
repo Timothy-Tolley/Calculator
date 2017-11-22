@@ -1,0 +1,27 @@
+body{
+font-family: serif;
+text-align: center;
+}
+
+h1{
+  color: grey;
+}
+
+table{
+  min-width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-width:1px;
+  background:lightgrey;
+}
+input{
+  width:90%;
+}
+
+td{
+  width:33.33%;
+}
+#display{
+  height: 30px;
+}

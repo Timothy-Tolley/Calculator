@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timothy Tolley EDA</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+  <h1>JavaScript Calculator</h1>
+  <form name="calculator">
+  <table>
+    <tr>
+      <td colspan="3">
+        <input type="text" maxlength="20" name="display" id="display">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="7" name="seven" id="seven" onclick="addDigit(value)"/>
+      </td>
+      <td>
+        <input type="button" value="8" name="eight" id="eight" onclick="addDigit(value)"/>
+      </td>
+      <td>
+        <input type="button" value="9" name="nine" id="nine" onclick="addDigit(value)"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="4" name="four" id="four" onclick="addDigit(value)"/>
+      </td>
+      <td>
+        <input type="button" value="5" name="five" id="five" onclick="addDigit(value)"/>
+      </td>
+      <td>
+        <input type="button" value="6" name="six" id="six" onclick="addDigit(value)"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="1" name="one" id="one" onclick="addDigit(value)"/>
+      </td>
+      <td>
+        <input type="button" value="2" name="two" id="two" onclick="addDigit(value)" />
+      </td>
+      <td>
+        <input type="button" value="3" name="three" id="three" onclick="addDigit(value)"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="." name="decimal" id="decimal" onclick="addDigit(value)"/>
+      </td>
+      <td>
+        <input type="button" value="0" name="zero" id="zero" onclick="addDigit(value)"/>
+      </td>
+      <td>
+        <input type="button" value="-/+" name="posNeg" id="posNeg" onclick="addDigit(value)"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="+" name="plus" id="plus" onclick="addDigit(value)"/>
+      </td>
+      <td>
+        <input type="button" value="-" name="minus" id="minus" onclick="addDigit(value)"/>
+      </td>
+      <td>
+        <input type="button" value="/" name="divide" id="divide" onclick="addDigit(value)"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td>
+          <input type="button" value="*" name="times" id="times" onclick="addDigit(value)"/>
+      </td>
+      <td>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <input type="button" value="CE" name="CE" id="clearEntry" onclick="remove()"/>
+      </td>
+      <td>
+        <input type="button" value="=" name="equals" id="equals" onclick="calculate()"/>
+      </td>
+      <td>
+        <input type="button" value="AC" name="AC" id="allClear" />
+      </td>
+
+    </tr>
+  </table>
+  </form>
+
+  <script src="calculator.js"></script>
+</body>
+</html>
