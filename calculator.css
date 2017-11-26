@@ -3,8 +3,13 @@ font-family: serif;
 text-align: center;
 }
 
-h1{
+h1, h3{
   color: grey;
+}
+
+input{
+  background-color: maroon;
+  color: white;
 }
 
 table{
@@ -14,9 +19,12 @@ table{
   text-align: center;
   border-width:1px;
   background:lightgrey;
+  padding:10px;
 }
 input{
   width:90%;
+  border: 2px;
+  border-color: black;
 }
 
 td{

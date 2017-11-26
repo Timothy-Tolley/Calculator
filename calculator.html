@@ -6,7 +6,8 @@
   <link rel="stylesheet" type="text/css" href="calculator.css">
 </head>
 <body>
-  <h1>JavaScript Calculator</h1>
+  <h1>Calculator</h1>
+  <h3>Coded using JavaScript</h3>
   <form name="calculator">
   <table>
     <tr>
@@ -55,7 +56,7 @@
         <input type="button" value="0" name="zero" id="zero" onclick="addDigit(value)"/>
       </td>
       <td>
-        <input type="button" value="-/+" name="posNeg" id="posNeg" onclick="addDigit(value)"/>
+        <input type="button" value="-/+" name="posNeg" id="posNeg" onclick="neg()"/>
       </td>
     </tr>
     <tr>
@@ -86,13 +87,14 @@
         <input type="button" value="=" name="equals" id="equals" onclick="calculate()"/>
       </td>
       <td>
-        <input type="button" value="AC" name="AC" id="allClear" />
+        <input type="button" value="AC" name="AC" id="allClear"  onclick="removeAll()"/>
       </td>
 
     </tr>
   </table>
+    <script src="calculator.js"></script>
   </form>
 
-  <script src="calculator.js"></script>
+
 </body>
 </html>
