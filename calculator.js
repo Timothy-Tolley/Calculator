@@ -26,6 +26,8 @@ function addDigit(digit){
 
 }
 
+
+
 //clear Entry
 function remove(){
     if(memory==!""){
@@ -34,7 +36,7 @@ function remove(){
     else if (memory==""){
       display=remember;
     }
-    else {
+    else if (remember=){
       display="";
     }
 
