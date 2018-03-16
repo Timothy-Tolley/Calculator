@@ -23,7 +23,6 @@ function addDigit(digit){
 
   }
   setDisplay();
-
 }
 
 
